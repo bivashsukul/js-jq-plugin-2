@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Primary Meta Tags -->
+  <title>js/jq plugin</title>
+  <meta name="title" content="jquery">
+  <meta name="description" content="jquery demo website">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="jquery">
+  <meta property="og:title" content="jquery">
+  <meta property="og:description" content="jquery demo website">
+  <meta property="og:image" content="bivashsukul">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="jquery">
+  <meta property="twitter:title" content="jquery">
+  <meta property="twitter:description" content="jquery demo website">
+  <meta property="twitter:image" content="bivashsukul">
+  
+  <!-- Optional Meta Tags -->
+  <meta name="keywords" content="tuyorial,html,css">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="language" content="english">
+  <meta name="revisit-after" content="1 days">
+  <meta name="author" content="jquery">
+  <!-- font cdn -->
+  <link rel="stylesheet" href="fontawesome-icon/css/all.min.css">
+  <!-- favicon link-->
+  <link rel="icon" href="i">
+  <!-- css links -->
+   <link rel="stylesheet" href="vendor/visual-percent-preloader/percent-preloader.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">    
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body class="body">
+<!-- header section start here -->
+<section class="header ">
+<div class="container p-0">
+<!-- nav start -->
+<nav class="navbar navbar-expand-lg ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><span class="text-warning">JS/JQ</span> Plugin</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navb" aria-controls="navb" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navb">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">preloader</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="slick-slider.html">slick-slider</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="load-more.html">Load More</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <div class="searchbar">
+          <input class="search_input" type="text" name="" placeholder="Search...">
+          <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+        </div>
+      </form>
+    </div>
+  </div>
+</nav>
+</div>
+</section>
+<!-- header section end  here -->
+
+
+<section class="preloader">
+  <div class="container">
+  <div class="row">
+    <div class="col-lg-5">
+  <!-- preloader start -->
+      <div class="preloader">
+        <div class="inner">
+          <span class="percentage"><span id="percentage">15</span>%</span>
+        </div>
+        <div class="loader-progress" id="loader-progress"> </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </section>
+  <!-- preloader end -->
+<!-- ! parallax start  -->
+ <section class="paralax">
+  <div class="parallax-window">
+    <div class="parallax-slider">
+      <img src="images/parallax.png" srcset="images, /path/to/image-800px.jpg 800w, /path/to/image-1200px.jpg 1200w" sizes="100vw">
+    </div>
+  </div>
+  <!-- <div class="parallax-window" data-parallax="scroll" data-image-src="/images/parallax.png"></div> -->
+ </section>
+<!-- !parallax end -->
+  <!-- script links -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="vendor/parallax/parallax.min.js"></script>
+  <script src="vendor/visual-percent-preloader/percent-preloader.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+  </body>
+</html>
